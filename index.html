@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Food Ordering Website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🍔 Food Ordering Website</h1>
+
+<input type="text" id="search" placeholder="Search food...">
+
+<nav>
+<a href="index.html">Home</a>
+<a href="cart.html">Cart</a>
+<a href="orders.html">Orders</a>
+<a href="login.html">Login</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+
+<div class="menu" id="menu"></div>
+
+<div class="cart">
+<h2>🛒 Cart</h2>
+
+<p>Items: <span id="item-count">0</span></p>
+
+<ul id="cart-items"></ul>
+
+<p>Total: ₹<span id="total-price">0</span></p>
+
+<button onclick="placeOrder()">Place Order</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
