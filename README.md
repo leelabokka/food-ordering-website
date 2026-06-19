@@ -1,30 +1,31 @@
 # 🍔 Food Ordering Website
 
-A responsive Food Ordering Website built using HTML and CSS. This project provides an attractive user interface for browsing food items, viewing offers, exploring menus, and placing food orders online.
+A responsive Food Ordering Website developed using HTML, CSS, and JavaScript. This project allows users to browse food items, add products to a cart, place orders, and proceed through a checkout process using a modern and user-friendly interface.
 
-## 📖 About the Project
+## 📖 Project Overview
 
-The Food Ordering Website is designed to offer users a seamless online food browsing experience. It features a modern layout, responsive design, and visually appealing sections that showcase food categories, special offers, and ordering options.
-
-This project helped strengthen front-end development skills and understanding of responsive web design principles.
+The Food Ordering Website simulates an online food delivery platform where customers can explore menus, manage their cart, place orders, and contact the service provider. The project focuses on front-end web development and responsive design principles.
 
 ## ✨ Features
 
-* Responsive website design
-* Attractive homepage layout
-* Food menu section
-* Special offers and promotions
-* Easy navigation
-* Mobile-friendly interface
-* Modern UI design
-* Organized content sections
+* Responsive homepage design
+* User login page
+* Food menu browsing
+* Add items to cart
+* Shopping cart management
+* Order placement page
+* Checkout process
+* Contact page
+* Admin dashboard page
+* Interactive functionality using JavaScript
 
 ## 🛠️ Technologies Used
 
 * HTML5
 * CSS3
-* Flexbox
+* JavaScript
 * Responsive Web Design
+* Flexbox
 
 ## 📂 Project Structure
 
@@ -32,121 +33,113 @@ This project helped strengthen front-end development skills and understanding of
 food-ordering-website/
 │
 ├── index.html
+├── login.html
+├── cart.html
+├── checkout.html
+├── order.html
+├── contact.html
+├── admin.html
 ├── style.css
-├── images/
+├── script.js
+├── food-logo.webp.webp
 └── README.md
 ```
 
-## 🚀 Getting Started
+## 🚀 How to Run the Project
 
-### Prerequisites
-
-* Any modern web browser
-* Code editor (VS Code recommended)
-
-### Installation
-
-1. Clone the repository:
+### Clone the Repository
 
 ```bash
 git clone https://github.com/leelabokka/food-ordering-website.git
 ```
 
-2. Navigate to the project folder:
+### Navigate to the Project Folder
 
 ```bash
 cd food-ordering-website
 ```
 
-3. Open the project:
+### Run the Application
 
-* Open `index.html` in your browser
+Open `index.html` in any web browser.
 
-OR
+Or use VS Code Live Server:
 
-* Use VS Code Live Server extension
+1. Open the project in VS Code.
+2. Install the Live Server extension.
+3. Right-click `index.html`.
+4. Click **Open with Live Server**.
 
-## 💻 Website Sections
+## 📱 Website Pages
 
-* Home
-* Why Choose Us
-* Explore Menu
-* Delivery & Payment
-* Follow Us
-* Footer
+### 🏠 Home Page
 
-## 📱 Responsive Design
+Displays featured food items and website navigation.
 
-The website is designed to work smoothly across:
+### 🔐 Login Page
 
-* Desktop
-* Laptop
-* Tablet
-* Mobile Devices
+Allows users to log in before ordering.
+
+### 🛒 Cart Page
+
+Displays selected food items and order summary.
+
+### 📦 Order Page
+
+Handles order placement functionality.
+
+### 💳 Checkout Page
+
+Provides checkout and payment-related interface.
+
+### 📞 Contact Page
+
+Allows users to contact the food service provider.
+
+### ⚙️ Admin Page
+
+Administrative interface for managing website operations.
 
 ## 🎯 Learning Outcomes
 
-Through this project, I gained experience in:
+This project helped in learning:
 
-* Structuring web pages with HTML
-* Styling interfaces using CSS
-* Responsive layouts using Flexbox
-* Navigation design
-* UI/UX fundamentals
-* Website organization and layout design
+* HTML page structuring
+* CSS styling and layouts
+* JavaScript DOM manipulation
+* Responsive web design
+* Navigation between multiple pages
+* User interface development
+* Front-end project organization
 
 ## 🔮 Future Enhancements
 
-* Add JavaScript functionality
-* Shopping cart feature
-* User authentication
-* Online payment integration
-* Search and filter options
-* Backend integration with databases
-
-## 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-2. Create a feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Add new feature"
-```
-
-4. Push to GitHub
-
-```bash
-git push origin feature-name
-```
-
-5. Create a Pull Request
+* User authentication with database
+* Online payment gateway integration
+* Food search and filtering
+* Order tracking system
+* Customer reviews and ratings
+* Backend integration using Node.js or Java
+* Database connectivity using MySQL
 
 ## 👩‍💻 Author
 
 **Leela Bokka**
 
-* GitHub: https://github.com/leelabokka
+GitHub: https://github.com/leelabokka
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available for educational purposes.
 
 ## ⭐ Support
 
-If you found this project useful:
+If you like this project:
 
-* ⭐ Star the repository
-* 🍴 Fork the repository
-* 📢 Share it with others
+* Star the repository ⭐
+* Fork the repository 🍴
+* Share it with others 📢
 
 ---
 
-Made with ❤️ using HTML and CSS.
+Made with ❤️ using HTML, CSS, and JavaScript.
